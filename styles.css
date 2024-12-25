@@ -1,27 +1,65 @@
+/* Basic Styling */
 body {
-    font-family: 'Georgia', serif;
-    color: #333333;
-    background-color: #FFFFFF;
+    font-family: "Anonymous Pro", monospace; /* Use monospace if Anonymous Pro isn't available */
+    color: #C0C0C0;  /* Off-white text */
+    background-color: #000000; /* Black background */
     line-height: 1.6;
+    margin: 0;
+    padding: 20px; /* Add some padding around the content */
 }
 
-h1, h2, h3 {
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
+/* Headings */
+h1 {
+    font-family: "AtariClassicChunky", sans-serif; /* If AtariClassicChunky isn't available, use a bold sans-serif */
+    color: #1E93FF; /* Blue */
+    font-size: 20px; /* Increased size for better visibility */
+    text-transform: uppercase;
+    margin-bottom: 10px;
 }
 
+h2 {
+    font-family: "AtariClassicChunky", sans-serif;
+    color: #FFDC00; /* Yellow */
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+
+/* Other elements */
+p {
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: disc;  /* Use default bullet points */
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+footer {
+    color: #999999; /* Light gray */
+    text-align: center; /* Center the footer text */
+    margin-top: 20px;
+}
+
+
+/* Links */
 a {
-    color: #007BFF;
+    color: #007BFF; /* Blue links */
     text-decoration: none;
+    border-bottom: 1px solid #007BFF;
 }
 
 a:hover {
-    text-decoration: underline;
+    color: #F93C31;  /* Red on hover */
+    border-color: #F93C31;
 }
 
-blockquote {
-    border-left: 4px solid #007BFF;
-    margin: 1em 0;
-    padding-left: 1em;
-    color: #555555;
-}
+/* Optional: If you want the grid background */
+.bg-grid { /* ... (Copy the bg-grid, bg-grid-mask, bg-grid-lines styles from your original CSS if desired) */ }
+
