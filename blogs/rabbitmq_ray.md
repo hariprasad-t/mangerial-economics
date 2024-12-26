@@ -1,4 +1,7 @@
-# How to Add a User to RabbitMQ in a Docker Container  
+---  
+layout: default  
+title: "How to Add a User to RabbitMQ in a Docker Container"  
+---  
    
 RabbitMQ is a powerful message broker that is widely used for building scalable and reliable applications. Running RabbitMQ in a Docker container is a convenient way to manage your messaging infrastructure. This guide will walk you through the process of adding a new user to your RabbitMQ instance running inside a Docker container.  
    
